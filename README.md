@@ -1,6 +1,7 @@
 # wb36-37-jmeter
 
-## Test Plan 1
+## Test plan 1
+
 > Crea un nuevo test plan y configúralo para grabar como hemos enseñado en clase. Cuando lo tengas graba una sessión para probar la carga de distintas partes del frontend de wordpress (sin loguear).
 > 
 > Cuando tengas la grabación, limpia los host externos y prueba a lanzar el test plan con 10 usuarios, 10 veces.
@@ -40,9 +41,10 @@ Con 100:
  ![image](https://user-images.githubusercontent.com/65896169/131902148-2af003b1-8957-4ac5-afe9-aab0c2b2cbdd.png)
  ![image](https://user-images.githubusercontent.com/65896169/131902163-718fa8fb-335e-4a9b-bfca-7ebfac286599.png)
 
-
+[Documento con resultados finales](https://github.com/Assembler-school-2021/wb36-37-jmeter/blob/main/wb32-trouble%20netdata%20dashboard-final.pdf)
 
 ## Test Plan 2
+
 > Haz lo mismo que en el test anterior pero prueba ahora varias partes del backend.
 
 ## Optimizando.
@@ -52,6 +54,7 @@ Con 100:
 > Conocer las tecnologias en que trabajamos es muy importante. Prueba a configurar algun pluguin específico de cache a wordpress y ejecuta el test plan 1 de nuevo. Notas algun cambio?
 
 ## Opcional
+
 > Investiga como configurar nginx para que cachee las respuestas del fpm como si un varnish fuera. Si te atreves puedes permitir la cache cuando no tengas la cookie de sessión.
 > 
 > Realiza de nuevo el test plan 1. Ha cambiado algo?
